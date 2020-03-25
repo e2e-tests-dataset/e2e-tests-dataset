@@ -1,0 +1,9 @@
+[submodule "Application-1/webapp-1"]
+	path = Application-1/webapp-1
+	url = https://github.com/e2e-tests-dataset/webapp-1.git
+[submodule "Application-2/webapp-2"]
+	path = Application-2/webapp-2
+	url = https://github.com/e2e-tests-dataset/webapp-2.git
+[submodule "Application-3/webapp-3"]
+	path = Application-3/webapp-3
+	url = https://github.com/e2e-tests-dataset/webapp-3.git
