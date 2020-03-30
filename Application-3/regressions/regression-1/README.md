@@ -4,15 +4,15 @@
 | **Branch where introduced regression** |
 | The name of the branch where introduced regression is *improvement-to-profile* |
 | **Link to branch** |
-| https://github.com/e2e-tests-database/webapp-3/tree/improvement-to-profile |
+| https://github.com/e2e-tests-dataset/webapp-3/tree/improvement-to-profile |
 | **Test failed** |
 | com.brems.e2e.TestE2EFront.java (TestE2EFront.java:27) |
 | **Link to test** |
-| https://github.com/e2e-tests-database/webapp-3/blob/improvement-to-profile/BREMS/src/test/java/com/brems/e2e/TestE2EFront.java#L27 |
+| https://github.com/e2e-tests-dataset/webapp-3/blob/improvement-to-profile/BREMS/src/test/java/com/brems/e2e/TestE2EFront.java#L27 |
 | **File modified** |
 | appSpring.security.SecurityConfiguration.java | 
 | **Link to changes** |
-| https://github.com/e2e-tests-database/webapp-3/commit/218c5bf20d3a58df2119338b64b54b79809d46e6#diff-736e54c81e6fb4e39639a611b132b965R33 |
+| https://github.com/e2e-tests-dataset/webapp-3/commit/218c5bf20d3a58df2119338b64b54b79809d46e6#diff-736e54c81e6fb4e39639a611b132b965R33 |
 | **Regression description**
 | The problem in this bug is that any user of the application can see administration panel and realize changes in the platform. |
 

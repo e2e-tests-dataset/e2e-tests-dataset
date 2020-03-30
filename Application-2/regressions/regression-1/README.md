@@ -5,21 +5,21 @@
 | **Branch where introduced regression** |
 | The name of the branch where introduced regression is *fixed-profile* |
 | **Link to branch** |
-| https://github.com/e2e-tests-database/webapp-2/tree/fixed-profile |
+| https://github.com/e2e-tests-dataset/webapp-2/tree/fixed-profile |
 | **Test failed** |
 | com.example.demo.integration.TestAPI.java (TestAPI.java:44) |
 | **Link to test** |
-| https://github.com/e2e-tests-database/webapp-2/blob/master/AMICOServer/src/test/java/com/example/demo/e2e/TestE2EFront.java#L155 |
+| https://github.com/e2e-tests-dataset/webapp-2/blob/master/AMICOServer/src/test/java/com/example/demo/e2e/TestE2EFront.java#L155 |
 | **File modified** |
 | com.example.demo.security.RestSecurityConfig.java |
 | **Link to changes** |
-| https://github.com/e2e-tests-database/webapp-2/commit/fef94f4f82819a4e1d2267421a0065866f8cf8a0#diff-b2026ef1d30ddb56a9020ffc15ca1379R32 |
+| https://github.com/e2e-tests-dataset/webapp-2/commit/fef94f4f82819a4e1d2267421a0065866f8cf8a0#diff-b2026ef1d30ddb56a9020ffc15ca1379R32 |
 | **Bug description** |
 | The problem in this bug is that any person can see the profile of any other person. This problem is in the class at control of the role of users.
 
 ##### Move to tags
 
-We move to the commit where we can see exist a regression and we can also move to the commit where regression fixed using the command `git checkout tag`. 
+We move to the commit where we can see exist a regression and we can also move to the commit where regression fixed using the command `git checkout <tag>`. 
 
 The tags that we can use: 
 

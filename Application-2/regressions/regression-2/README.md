@@ -5,21 +5,21 @@
 | **Branch where introduced regression** |
 | The name of the branch where introduced regression is *changes-admin-page* |
 | **Link to branch** |
-| https://github.com/e2e-tests-database/webapp-2/tree/changes-admin-page |
+| https://github.com/e2e-tests-dataset/webapp-2/tree/changes-admin-page |
 | **Test failed** |
 | com.example.demo.e2e.TestE2EFront.java (TestE2EFront.java:35) |
 | **Link to test** |
-| https://github.com/e2e-tests-database/webapp-2/blob/master/AMICOServer/src/test/java/com/example/demo/e2e/TestE2EFront.java#L35 |
+| https://github.com/e2e-tests-dataset/webapp-2/blob/master/AMICOServer/src/test/java/com/example/demo/e2e/TestE2EFront.java#L35 |
 | **File modified** |
 | com.example.demo.security.RestSecurityConfig.java |
 | **Link to changes** |
-| https://github.com/e2e-tests-database/webapp-2/commit/3366a5450401ea656b38bb3f251065d0f883da86#diff-b2026ef1d30ddb56a9020ffc15ca1379R40 |
+| https://github.com/e2e-tests-dataset/webapp-2/commit/3366a5450401ea656b38bb3f251065d0f883da86#diff-b2026ef1d30ddb56a9020ffc15ca1379R40 |
 | **Bug description** |
 | The problem in this bug is that it can’t delete any course in admin mode. This problem is in the class of control role users, and in the class that contains the restcontroller of remove courses. |
 
 ##### Move to tags
 
-We move to the commit where we can see exist a regression and we can also move to the commit where regression fixed using the command `git checkout tag`. 
+We move to the commit where we can see exist a regression and we can also move to the commit where regression fixed using the command `git checkout <tag>`. 
 
 The tags that we can use: 
 
