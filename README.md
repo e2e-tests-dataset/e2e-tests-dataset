@@ -60,11 +60,13 @@ If we want to run the tests, both in its fixed version and in its buggy version:
 
 #### With Docker
 
-1.
+1. Move to Docker folder
 * `cd docker/dataset-env/`
-2.
-* ` ./run.sh `
-1. In Docker container prompt, move to project
-* `cd webapp-2/AMICOServe`
+2. Run test on buggy version
+* `./e2e-dataset.sh webapp-2 regression-1`
+3. Check logs at `logs/webapp-2/regression-1/`
+4. Run test on fixed version
+* `./e2e-dataset.sh webapp-2 regression-fixed-1`
+5. Check logs at `logs/webapp-2/regression-fixed-1/` and compare with buggy version
 
 

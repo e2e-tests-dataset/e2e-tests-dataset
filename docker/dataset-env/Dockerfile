@@ -1,6 +1,6 @@
 FROM openjdk:8
 
-USER root
+#USER root
 
 # Install dependencies
 RUN apt-get update \
@@ -16,9 +16,7 @@ RUN apt-get install -y curl \
     && VERSION=v8.17.0 \
     && DISTRO=linux-x64 \
     && mkdir -p /usr/local/lib/nodejs \
-    && tar -xJvf node-$VERSION-$DISTRO.tar.xz -C /usr/local/lib/nodejs \
-    && export PATH=/usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin:$PATH \
-    && echo "PATH=/usr/local/lib/nodejs/node-v8.17.0-linux-x64/bin:$PATH" >> ~/.bashrc
+    && tar -xJvf node-$VERSION-$DISTRO.tar.xz -C /usr/local/lib/nodejs
 
 # Install Chrome
 RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
@@ -48,14 +46,13 @@ RUN x11vnc -storepasswd e2edataset ~/.vnc/passwd
 # Cleanup
 RUN apt-get autoremove --purge
 
-# Script dataset
-ADD dataset.sh /usr/bin
-RUN chmod +x /usr/bin/dataset.sh
 RUN mkdir /home/dataset/logs
+
+ENV PATH=/usr/local/lib/nodejs/node-v8.17.0-linux-x64/bin:$PATH
 
 WORKDIR /home/dataset
 
 ADD entrypoint.sh /usr/bin
 RUN chmod +x /usr/bin/entrypoint.sh
 
-CMD ["entrypoint.sh"]
+ENTRYPOINT [ "entrypoint.sh" ]
