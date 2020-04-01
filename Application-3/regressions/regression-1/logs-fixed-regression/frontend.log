@@ -1,0 +1,13 @@
+2019-05-09T12:36:39.966Z : [DEBUG] http://172.27.0.10:8000/ - [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o
+2019-05-09T12:36:41.131Z : [WARNING] http://172.27.0.10:8000/login - [DOM] Found 2 elements with non-unique id #login-form: (More info: https://goo.gl/9p2vKq) %o %o
+2019-05-09T12:36:41.138Z : [WARNING] http://172.27.0.10:8000/login - [DOM] Found 2 elements with non-unique id #login_lost_btn: (More info: https://goo.gl/9p2vKq) %o %o
+2019-05-09T12:36:41.140Z : [WARNING] http://172.27.0.10:8000/login - [DOM] Found 2 elements with non-unique id #login_register_btn: (More info: https://goo.gl/9p2vKq) %o %o
+2019-05-09T12:36:41.142Z : [WARNING] http://172.27.0.10:8000/login - [DOM] Found 2 elements with non-unique id #password: (More info: https://goo.gl/9p2vKq) %o %o
+2019-05-09T12:36:41.144Z : [WARNING] http://172.27.0.10:8000/login - [DOM] Found 2 elements with non-unique id #username: (More info: https://goo.gl/9p2vKq) %o %o
+2019-05-09T12:36:41.146Z : [DEBUG] http://172.27.0.10:8000/login - [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o
+2019-05-09T12:36:41.147Z : [DEBUG] http://172.27.0.10:8000/login - [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o
+2019-05-09T12:36:41.149Z : [DEBUG] http://172.27.0.10:8000/ - [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o
+2019-05-09T12:36:42.147Z : [SEVERE] http://172.27.0.10:8000/admin/ - Failed to load resource: the server responded with a status of 403 ()
+2019-05-09T12:36:44.168Z : [DEBUG] http://172.27.0.10:8000/ - [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o
+2019-05-09T12:36:46.215Z : [INFO] http://172.27.0.10:8000/ 66:72 "Logout"
+2019-05-09T12:36:46.222Z : [DEBUG] http://172.27.0.10:8000/ - [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o

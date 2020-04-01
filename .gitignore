@@ -2,7 +2,8 @@
 *.class
 
 # Log file
-*.log
+#*.log
+docker/dataset-env/logs/
 
 # BlueJ files
 *.ctxt

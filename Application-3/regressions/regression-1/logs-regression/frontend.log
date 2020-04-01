@@ -1,0 +1,10 @@
+2019-05-09T12:40:53.495Z : [DEBUG] http://172.27.0.10:8000/ - [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o
+2019-05-09T12:40:54.515Z : [WARNING] http://172.27.0.10:8000/login - [DOM] Found 2 elements with non-unique id #login-form: (More info: https://goo.gl/9p2vKq) %o %o
+2019-05-09T12:40:54.518Z : [WARNING] http://172.27.0.10:8000/login - [DOM] Found 2 elements with non-unique id #login_lost_btn: (More info: https://goo.gl/9p2vKq) %o %o
+2019-05-09T12:40:54.521Z : [WARNING] http://172.27.0.10:8000/login - [DOM] Found 2 elements with non-unique id #login_register_btn: (More info: https://goo.gl/9p2vKq) %o %o
+2019-05-09T12:40:54.522Z : [WARNING] http://172.27.0.10:8000/login - [DOM] Found 2 elements with non-unique id #password: (More info: https://goo.gl/9p2vKq) %o %o
+2019-05-09T12:40:54.525Z : [WARNING] http://172.27.0.10:8000/login - [DOM] Found 2 elements with non-unique id #username: (More info: https://goo.gl/9p2vKq) %o %o
+2019-05-09T12:40:54.527Z : [DEBUG] http://172.27.0.10:8000/login - [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o
+2019-05-09T12:40:54.530Z : [DEBUG] http://172.27.0.10:8000/login - [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o
+2019-05-09T12:40:54.533Z : [DEBUG] http://172.27.0.10:8000/ - [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o
+2019-05-09T12:40:55.914Z : [INFO] http://172.27.0.10:8000/admin/ 21:108 "Load menu admin page"

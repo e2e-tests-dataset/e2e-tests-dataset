@@ -1,0 +1,8 @@
+2019-05-09T10:37:21.530Z : [SEVERE] http://172.27.0.10:8000/api/logIn - Failed to load resource: the server responded with a status of 404 ()
+2019-05-09T10:37:21.534Z : [SEVERE] http://172.27.0.10:8000/new/main.94499b0c936c80b4c7db.bundle.js 0:1033169 "Error when asking if logged: {"_body":"null","status":404,"ok":false,"statusText":"OK","headers":{"pragma":["no-cache"],"date":["Thu"," 09 May 2019 10:37:20 GMT"],"x-content-type-options":["nosniff"],"x-frame-options":["DENY"],"content-type":["application/json;charset=UTF-8"],"cache-control":["no-cache"," no-store"," max-age=0"," must-revalidate"],"transfer-encoding":["chunked"],"x-xss-protection":["1; mode=block"],"expires":["0"]},"type":2,"url":"http://172.27.0.10:8000/api/logIn"}"
+2019-05-09T10:37:21.537Z : [SEVERE] http://172.27.0.10:8000/api/logIn - Failed to load resource: the server responded with a status of 404 ()
+2019-05-09T10:37:21.539Z : [SEVERE] http://172.27.0.10:8000/new/main.94499b0c936c80b4c7db.bundle.js 0:249098 "ERROR" e
+2019-05-09T10:37:21.542Z : [SEVERE] http://172.27.0.10:8000/api/users/amico - Failed to load resource: the server responded with a status of 401 ()
+2019-05-09T10:37:21.545Z : [SEVERE] http://172.27.0.10:8000/new/main.94499b0c936c80b4c7db.bundle.js 0:1249594 e
+2019-05-09T10:37:21.547Z : [INFO] http://172.27.0.10:8000/new/main.94499b0c936c80b4c7db.bundle.js 0:1270023 "Server error (401): "
+2019-05-09T10:37:21.550Z : [INFO] http://172.27.0.10:8000/new/main.94499b0c936c80b4c7db.bundle.js 0:1230160 "404"

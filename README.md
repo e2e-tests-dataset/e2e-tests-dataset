@@ -35,7 +35,7 @@ You can see the different regressions in detail in the 'regressions' folder with
 ### Example of use 
 
 * Application: `Webapp-2`
-* Regression:  `Regression-1`
+* Regression (git tag):  `Regression-1`
 
 If we want to run the tests, both in its fixed version and in its buggy version:
 
